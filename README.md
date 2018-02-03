@@ -1,0 +1,2 @@
+# Pokerman
+Predicting poker hands.
