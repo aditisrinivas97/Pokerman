@@ -3,8 +3,6 @@ Contains things common to all models implemented here; such as imports, configs,
 '''
 
 # -------------------- Imports -------------------- #
-from keras.models import Sequential
-from keras.layers import Dense
 import numpy as np, pandas as pd, os
 from prettytable import PrettyTable
 

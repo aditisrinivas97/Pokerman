@@ -3,6 +3,9 @@ ANN with back-propagation.
 '''
 
 # -------------------- Imports -------------------- #
+from keras.models import Sequential
+from keras.layers import Dense
+
 from pokerman_common import *
 
 
