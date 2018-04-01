@@ -1,5 +1,5 @@
 '''
-ANN with back-propagation.
+Deep Neural Net.
 '''
 
 # -------------------- Imports -------------------- #
@@ -30,9 +30,17 @@ test_y_onehot = np.array(test_y_onehot)
 model = Sequential()
 
 # Input layer
-model.add(Dense(config.features, input_shape = (train_x.shape[1],), activation='softmax'))
+model.add(Dense(config.features, input_shape = (train_x.shape[1],), activation='tanh'))
 
+# Hidden Layers
+model.add(Dense(64, activation='tanh'))
+model.add(Dense(64, activation='tanh'))
+model.add(Dense(64, activation='tanh'))
+model.add(Dense(64, activation='tanh'))
+model.add(Dense(64, activation='tanh'))
 
+# Output layer
+model.add(Dense(10, activation='softmax'))
 model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 model.fit(train_x, train_y_onehot, epochs = 500, batch_size = 500, verbose=0)
 
