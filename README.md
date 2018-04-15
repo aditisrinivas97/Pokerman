@@ -40,7 +40,7 @@ A K Q J 10 9 8 7 6 5 4 3 2 1
 
 ## Data
 
-This data was acquired from UCL's Machine Learning repository. The data comes already split into training and testing data.
+This data was acquired from UCI's Machine Learning repository. The data comes already split into training and testing data.
 
 Find it [here](https://archive.ics.uci.edu/ml/datasets/Poker+Hand).
 
@@ -75,3 +75,10 @@ Each bar represents the frequency of the corresponding hand as specified in the 
 The Multi-layer Perceptron is clearly the best model for the dataset in hand. Here's the confusion matrix to provide us with some more insight into *how accurate* this model really was with its predictions.
 
 ![Multi Layer Perceptron Confusion Matrix](https://github.com/aditisrinivas97/pokerman/blob/master/extras/confMat.png)
+
+## Primary Contributors
+
+| | |
+|:-:|:-:|
+|<img src="https://github.com/aditisrinivas97.png" width="48">  | [Aditi Srinivas](https://github.com/aditisrinivas97) |
+|<img src="https://github.com/avinashshenoy97.png" width="48">  | [Avinash Shenoy](https://github.com/avinashshenoy97) |
